@@ -1,0 +1,15 @@
+_site
+node_modules
+.DS_Store
+.sass-cache
+*.sublime-project
+*.sublime-workspace
+Gemfile.lock
+Rakefile.rb
+npm-debug.log
+tmp
+design
+aws.json
+dist
+todo.md
+src/lib

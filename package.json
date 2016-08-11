@@ -1,0 +1,27 @@
+{
+  "name": "metalpress-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for metalpress.",
+  "main": "dist",
+  "scripts": {
+    "start": "npm run build",
+    "build": "node build.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cameronroe/metalpress-boilerplate.git"
+  },
+  "keywords": [
+    "metalpress"
+  ],
+  "author": "Cameron Roe <cameronjroe@gmail.com> (http://cameronroe.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cameronroe/metalpress-boilerplate/issues"
+  },
+  "homepage": "https://github.com/cameronroe/metalpress-boilerplate#readme",
+  "dependencies": {
+    "metalpress": "0.3.0"
+  }
+}
