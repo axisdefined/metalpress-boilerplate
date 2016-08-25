@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/cameronroe/metalpress-boilerplate#readme",
   "dependencies": {
-    "metalpress": "0.3.0"
-  }
+    "metalpress": "1.0.0"
+  },
+  "devDependencies": {}
 }

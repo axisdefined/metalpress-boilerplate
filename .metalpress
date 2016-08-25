@@ -1,0 +1,50 @@
+{
+  "filedata": {
+    "site": "data/site.yaml"
+  },
+  "collections": {
+    "posts": {
+      "pattern": "posts/*.html",
+      "sortBy": "date",
+      "reverse": true
+    },
+    "pages": {
+      "pattern": "pages/*.html"
+    }
+  },
+  "permalinks": {
+    "relative": false,
+    "linksets": [
+      {
+        "match": {
+          "collection": "posts"
+        },
+        "pattern": "blog/:date/:title"
+      },
+      {
+        "match": {
+          "collection": "pages"
+        },
+        "pattern": ":title"
+      }
+    ]
+  },
+  "pagination": {
+    "collections.posts": {
+      "perPage": 5,
+      "first": "blog/index.html",
+      "path": "blog/:num/index.html",
+      "pageMetadata": "data/blog.yaml",
+      "layout": "blog.liquid"
+    }
+  },
+  "sitemap": {
+    "hostname": "http://example.com"
+  },
+  "basePath": ".",
+  "rss": {
+    "feedOptions": {
+      "title": "Example Site"
+    }
+  }
+}
